@@ -39,7 +39,7 @@ public class RetrieverTest {
 
     @Test
     void testFindMaxDistanceBetweenUsers2() throws JSONException{
-        String expected = "The furthest distance between users: 144.01549699639966. The distance separates the users: johnd, mor_2314, and  derek";
+        String expected = "The furthest distance between users: 144.01549699639966. The distance separates the users: johnd, mor_2314 and derek";
         String actual = retriever.findMaxDistanceBetweenUsers();
         Assertions.assertEquals(expected, actual);
     }
